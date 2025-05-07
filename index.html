@@ -17,18 +17,30 @@
     <main>
       <div>
         <!-- text box to display quotation  -->
-         <div class="quote-card">
-            <p class="quote-text" id="quote-text">Loading quote....</p>
-            <p class="quote-author" id="quote-author">Quote author</p>
-         </div>
+        <div class="quote-card">
+          <p class="quote-text" id="quote-text">Loading quote....</p>
+          <p class="quote-author" id="quote-author"></p>
+        </div>
+        <!-- text box to display quotation ends -->
 
-        <div>
-          <div class="category left">dopdown</div>
-          <div class="btn-group right">
-            <button>Previous</button>
-            <button>Next</button>
-            <button>Random</button>
+        <div class="controls">
+          <!-- dropdown to for categroy selector  -->
+          <select id="category-selector" class="category-selector">
+            <option value="all">All Categories</option>
+            <option value="inspiration">Inspiration</option>
+            <option value="science">Science</option>
+            <option value="philosophy">Philosophy</option>
+            <option value="humor">Humor</option>
+          </select>
+          <!-- dropdown to for categroy selector ends -->
+
+          <!-- navigation buttons  -->
+          <div class="navigation">
+            <button id="prev-btn">Previous</button>
+            <button id="next-btn">Next</button>
+            <button id="random-btn">Random</button>
           </div>
+          <!-- navigation buttons ends -->
         </div>
       </div>
     </main>
@@ -36,13 +48,24 @@
 
     <!-- footer starts here  -->
     <footer>
-      <div>
-        <div class="dark-mode">Dark Mode</div>
-        <div>
-          <p>Font Size:</p>
-          <button>-</button>
-          <button>+</button>
+      <div class="settings">
+        <!-- dark/white mode controls  -->
+        <div class="theme-control">
+          <span class="theme-label">Dark Mode</span>
+          <label class="theme-toggle">
+            <input type="checkbox" id="theme-toggle" />
+            <span class="slider"></span>
+          </label>
         </div>
+        <!-- dark/white mode controls ends -->
+
+        <!-- font size controller  -->
+        <div class="font-size-controls">
+          <span>Font Size:</span>
+          <button id="decrease-font" class="font-size-btn">-</button>
+          <button id="increase-font" class="font-size-btn">+</button>
+        </div>
+        <!-- font size controller ends -->
       </div>
     </footer>
     <!-- footer ends here  -->

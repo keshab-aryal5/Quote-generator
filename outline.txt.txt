@@ -1,0 +1,34 @@
+App title :  Quote Generator
+
+start date: 5/7 3:35pm                                         
+End Date:   5/10 10:00pm
+
+Requirements
+    App will have a text area (large) where quotes will be shown
+    option to select category of quotes
+    Three buttons previous next and random
+    toggle switch to switch between a dark and light mode
+    buttons to increase and decrease font size
+    Mobile friendly
+    use only HTML, CSS (CSS3), and Vanilla JavaScript without the use of any external frameworks or libraries.
+    own custom code Avoid AI-generated code and not to borrow from external sources.
+    Backend services and databases not required.
+
+    Hosting: Netlify
+    version tracking: git and github
+
+Task for 5/7
+    Make a git hub repo 
+    Make a  design of app
+    Get started with HTML code
+    Borrow the quotes and store it as array of object..
+    push your task.
+
+Task for 5/8
+    Start with styling.
+    Review the concepts in css as required (Dom, flex,grid and so on)
+    Get your app 50% done.
+    git push.
+
+******************************** 1st milestone reached ********************************
+Task for 5/9
